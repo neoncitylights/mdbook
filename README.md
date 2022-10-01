@@ -1,7 +1,7 @@
 # 📖 Markdown Template
 
-[![CI](https://github.com/samantha-labs/repo-template-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/samantha-labs/repo-template-markdown/actions/workflows/ci.yml)
-[![GitHub deployments](https://img.shields.io/github/deployments/samantha-labs/repo-template-markdown/github-pages?label=docs)](https://samantha-labs.github.io/repo-template-markdown/)
+[![CI](https://github.com/nlp-rs/markdown-template/actions/workflows/ci.yml/badge.svg)](https://github.com/nlp-rs/markdown-template/actions/workflows/ci.yml)
+[![GitHub deployments](https://img.shields.io/github/deployments/nlp-rs/markdown-template/github-pages?label=docs)](https://nlp-rs.github.io/markdown-template/)
 
 A repository template that builds a static documentation site using Markdown and mdBook.
 
@@ -25,7 +25,7 @@ Make a change, commit, push, and see the updates live on your GitHub Pages site!
 ## Build locally
 
 ```bash
-git clone https://github.com/samantha-labs/repo-template-markdown.git
+git clone https://github.com/nlp-rs/markdown-template.git
 cd repo-template-markdown
 npm install
 npm run build
