@@ -7,14 +7,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths:
-      - 'src/**/*.md'
-      - 'book.toml'
   pull_request:
     branches: [ main ]
-    paths:
-      - 'src/**/*.md'
-      - 'book.toml'
 
 jobs:
   build:
@@ -28,10 +22,15 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - name: Setup mdbook-katex
-        uses: magicgh/mdbook-katex-action@v1
-        with:
-          version: 'latest'
+      # Failing with:
+      # Action failed with error Error: ENOENT: no such file or directory, rename
+      #   '/home/runner/tmp/target/x86_64-unknown-linux-gnu/release/mdbook-katex'
+      #   -> '/home/runner/toolbin/mdbook-katex'
+      #
+      # - name: Setup mdbook-katex
+      #   uses: magicgh/mdbook-katex-action@v1.1.0
+      #   with:
+      #     version: 'latest'
 
       - name: Install Node.js
         uses: actions/setup-node@v3
