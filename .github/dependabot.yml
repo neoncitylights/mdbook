@@ -26,4 +26,3 @@ updates:
       - "t-dependencies"
       - "pkg-gh-actions"
     open-pull-requests-limit: 4
-
