@@ -14,7 +14,6 @@ Make a change, commit, push, and see the updates live on your GitHub Pages site!
 - [x] *Continuous deployment* with [GitHub Actions](https://github.com/features/actions), with fast-build & deploy times (< 30 seconds)
   - [x] only runs when changes are made to Markdown files
 - [x] *Dependency updates* with [Renovate](https://github.com/marketplace/renovate)
-- [x] Support for KaTeX with the the [`mdbook-katex` preprocessor](https://github.com/lzanini/mdbook-katex) by default
 - [x] *Remote development* with [GitHub Codespaces](https://github.com/features/codespaces)
 
 ## Configure
