@@ -24,5 +24,6 @@ updates:
       prefix: "chore(deps/actions):"
     labels:
       - "t-dependencies"
-      - "pkg-actions"
+      - "pkg-gh-actions"
     open-pull-requests-limit: 4
+
