@@ -12,4 +12,4 @@ create-missing = false
 edition = "2021"
 
 [output.html]
-git-repository-url = "https://github.com/samantha-labs/repo-template-markdown"
+git-repository-url = "https://github.com/neoncitylights/mdbook-template"
