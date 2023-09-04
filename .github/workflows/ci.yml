@@ -7,14 +7,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths:
-      - 'src/**/*.md'
-      - 'book.toml'
   pull_request:
     branches: [ main ]
-    paths:
-      - 'src/**/*.md'
-      - 'book.toml'
 
 jobs:
   build:
