@@ -32,18 +32,3 @@ Is today's hectic lifestyle making you tense and impatient? Michelle, I don't re
 Well, then good news! It's a suppository. Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. We can't compete with Mom! Her company is big and evil! Ours is small and neutral!
 
 You've killed me! Oh, you've killed me! It's a T. It goes "tuh". And until then, I can never die? Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?
-
-## $\KaTeX$ Example
-
-The below formula is the definition of a Fourier transform (FT) in $\KaTeX$.
-
-Given the input:
-
-```tex
-\stackrel{\wedge}{f}(\xi) = \int^{\infty}_{-\infty} f(x)e^{2\pi ix\xi}dx, \forall\xi\in\Reals
-```
-
-Will output:
-$$
-\stackrel{\wedge}{f}(\xi) = \int^{\infty}_{-\infty} f(x)e^{2\pi ix\xi}dx, \forall\xi\in\Reals
-$$
