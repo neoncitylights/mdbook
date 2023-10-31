@@ -1,7 +1,7 @@
 # 📖 Markdown Template
 
-[![CI](https://github.com/neoncitylights/mdbook-template/actions/workflows/ci.yml/badge.svg)](https://github.com/neoncitylights/mdbook-template/actions/workflows/ci.yml)
-[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/mdbook-template/github-pages?label=docs)](https://neoncitylights.github.io/mdbook-template/)
+[![CI](https://github.com/neoncitylights/mdbook/actions/workflows/ci.yml/badge.svg)](https://github.com/neoncitylights/mdbook/actions/workflows/ci.yml)
+[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/mdbook/github-pages?label=docs)](https://neoncitylights.github.io/mdbook/)
 
 A repository template that builds a static documentation site using Markdown and mdBook.
 
@@ -23,8 +23,8 @@ Make a change, commit, push, and see the updates live on your GitHub Pages site!
 ## Build locally
 
 ```bash
-git clone https://github.com/neoncitylights/mdbook-template.git
-cd mdbook-template
+git clone https://github.com/neoncitylights/mdbook.git
+cd mdbook
 npm install
 npm run build
 ```
