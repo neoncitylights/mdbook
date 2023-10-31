@@ -14,6 +14,11 @@ updates:
     labels:
       - "t-dependencies"
       - "pkg-npm"
+    groups:
+      markdownlint:
+        patterns:
+         - markdownlint-cli2
+         - markdown-config-neoncitylights
     open-pull-requests-limit: 4
 
   - package-ecosystem: "github-actions"
