@@ -1,3 +1,7 @@
+/**
+ * Repository: https://github.com/DavidAnson/markdownlint-cli2
+ * Configuration: https://github.com/DavidAnson/markdownlint-cli2?tab=readme-ov-file#markdownlint-cli2jsonc
+ */
 {
 	"config": {
 		"extends": "markdownlint-config-neoncitylights",
