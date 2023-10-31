@@ -1,6 +1,6 @@
 [book]
 title = "Markdown Book"
-authors = ["Samantha"]
+authors = ["{{author}}"]
 language = "en"
 multilingual = false
 src = "src"
@@ -12,4 +12,4 @@ create-missing = false
 edition = "2021"
 
 [output.html]
-git-repository-url = "https://github.com/neoncitylights/mdbook-template"
+git-repository-url = "https://github.com/neoncitylights/mdbook"
