@@ -4,11 +4,12 @@
 		"build": "mdbook build",
 		"start": "mdbook serve",
 		"deploy": "gh-pages -d ./book",
-		"lint": "markdownlint . --ignore node_modules",
+		"lint": "markdownlint-cli2 \"*/**.md\" \"#node_modules\"",
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
 		"gh-pages": "6.0.0",
-		"markdownlint-cli": "0.37.0"
+		"markdownlint-cli2": "^0.10.0",
+		"markdownlint-config-neoncitylights": "^0.2.3"
 	}
 }
