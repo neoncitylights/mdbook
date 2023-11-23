@@ -18,7 +18,7 @@ updates:
       markdownlint:
         patterns:
          - markdownlint-cli2
-         - markdown-config-neoncitylights
+         - markdownlint-config-neoncitylights
     open-pull-requests-limit: 4
 
   - package-ecosystem: "github-actions"
