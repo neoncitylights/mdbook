@@ -1,7 +1,7 @@
 # 📖 Markdown Template
 
-[![CI](https://github.com/neoncitylights/mdbook/actions/workflows/ci.yml/badge.svg)](https://github.com/neoncitylights/mdbook/actions/workflows/ci.yml)
-[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/mdbook/github-pages?label=docs)](https://neoncitylights.github.io/mdbook/)
+[![CI](https://img.shields.io/github/actions/workflow/status/neoncitylights/mdbook/.github/workflows/ci.yml?style=flat-square)](https://github.com/neoncitylights/mdbook/actions/workflows/ci.yml)
+[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/mdbook/github-pages?label=docs&style=flat-square)](https://neoncitylights.github.io/mdbook/)
 
 A repository template that builds a static documentation site using Markdown and mdBook.
 
