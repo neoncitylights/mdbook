@@ -29,6 +29,12 @@ npm install
 npm run build
 ```
 
+### System requirements
+
+Be sure to also install the following tools:
+- [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (Rust package manager)
+- [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) (Static site generator with Markdown)
+
 ## Lint markdown files
 
 - To lint markdown: `npm run lint`
