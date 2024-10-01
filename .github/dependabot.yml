@@ -10,10 +10,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "chore(deps/npm):"
-    labels:
-      - "t-dependencies"
-      - "pkg-npm"
+      prefix: "deps(npm):"
     groups:
       markdownlint:
         patterns:
@@ -26,8 +23,5 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "chore(deps/actions):"
-    labels:
-      - "t-dependencies"
-      - "pkg-gh-actions"
+      prefix: "deps(gha):"
     open-pull-requests-limit: 4

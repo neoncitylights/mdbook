@@ -4,7 +4,6 @@
  */
 {
 	"config": {
-		"extends": "markdownlint-config-neoncitylights",
 		"MD001": true,
 		"MD002": {
 			"level": 1
