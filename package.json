@@ -7,7 +7,6 @@
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
-		"markdownlint-cli2": "^0.12.1",
-		"markdownlint-config-neoncitylights": "^0.3.0"
+		"markdownlint-cli2": "^0.12.1"
 	}
 }
