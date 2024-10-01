@@ -7,6 +7,6 @@
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
-		"markdownlint-cli2": "^0.12.1"
+		"markdownlint-cli2": "^0.13.0"
 	}
 }
