@@ -11,11 +11,6 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "deps(npm):"
-    groups:
-      markdownlint:
-        patterns:
-         - markdownlint-cli2
-         - markdownlint-config-neoncitylights
     open-pull-requests-limit: 4
 
   - package-ecosystem: "github-actions"
