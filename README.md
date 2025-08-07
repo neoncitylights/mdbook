@@ -16,9 +16,8 @@ A repository template that builds a static documentation site using Markdown and
 | mdBook            | [`SUMMARY.md`](./src/SUMMARY.md)                         | [docs](https://rust-lang.github.io/mdBook/format/summary.html)             |
 
 ## Build locally
-```
-
-```
+- With Docker: `docker compose build` + `docker compose up`
+- Without Docker: `mdbook build` + `mdbook serve`
 
 ### System requirements
 - [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (Rust package manager)
