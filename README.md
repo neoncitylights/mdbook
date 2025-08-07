@@ -18,7 +18,3 @@ A repository template that builds a static documentation site using Markdown and
 ## Build locally
 - With Docker: `docker compose build` + `docker compose up`
 - Without Docker: `mdbook build` + `mdbook serve`
-
-### System requirements
-- [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (Rust package manager)
-- [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) (Static site generator with Markdown)
